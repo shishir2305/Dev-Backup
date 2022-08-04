@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Event Listeners</title>
+  </head>
+  <body>
+    <h1>Full Stack Developer</h1>
+    <input type="text" />
+    <h2>Heading</h2>
+    <h3>MERN Developer</h3>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      console.log($("h1").text()); // to access the innertext value of the element
+
+      $("h1").click(function () {
+        if ($("h1").text() === "Full Stack Developer") {
+          $("h1").text("Machine Learning Engineer");
+        } else {
+          $("h1").text("Full Stack Developer");
+        }
+      });
+
+      $("input").keypress(function (event) {
+        console.log(event.key);
+      });
+
+      $(document).keypress(function (event) {
+        $("h2").text(event.key);
+      });
+
+      // on is a jquery event object similar to addeventlistener in js, the first parameter is the event and the second one is the callback function
+
+      $("h3").on("mouseover", function () {
+        $("h3").text("Machine Learning Engineer");
+      });
+    </script>
+  </body>
+</html>

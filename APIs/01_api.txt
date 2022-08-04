@@ -1,0 +1,16 @@
+An Application Programming Interface (API) is a set of commands, functions, protocols and objects, that programmers can use to create software or interact with an external system
+
+Endpoint - In simple terms, an API endpoint is the point of entry in a communication channel when two systems are interacting.  It refers to touchpoints of the communication between an API and a server. The endpoint can be viewed as the means from which the API can access the resources they need from a server to perform their task. An API endpoint is basically a fancy word for a URL of a server or service.
+
+Path
+
+Parameters
+
+Authentication - When the api is monetized the admin has to limit the use of it and this is attained through Authentication.
+
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+
+upto ? it is the endpoint then we have the lat, lon and api id those are the parameters
+we can add more paramters using &
+
+JSON - Stands for Javascript Object Notation

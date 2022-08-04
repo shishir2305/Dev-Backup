@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+  </head>
+  <body>
+    <h1>Full Stack Developer</h1>
+    <button>Click Me</button>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // $('h1').hide() hides the selected element and $('h1').show() shows the element and $('h1').toggle() hides the button if shown and shows the button if hidden
+      //
+      $("button").click(function () {
+        // $("h1").fadeOut(); // hides the selected element with some animation
+        //
+        // $("h1").fadeToggle(); is shown it hides and if hidden it shows with some animation
+        //
+        // $("h1").slideToggle();  shows and hides an element with some sliding effect
+        //
+        // $("h1").animate({ opacity: 0.5 });  this a method to add animations but one thing is that we can only animate css properties that have a numeric value and not one with strings
+      });
+    </script>
+  </body>
+</html>

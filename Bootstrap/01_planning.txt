@@ -1,0 +1,5 @@
+Wire Framing - The process in which we draw a rough sketch of what we are going to build. It looks ugly and unstructured but since it a rough design of our website or app gives us a reference to look at when making the layouts.
+
+Mock Up - It is a really nice looking complete design of our website or app we are going to build. Refers to the future look of our app. It has all the components really structured and in place. It complete and really good looking.
+
+Prototype- The most advanced version of creating a reference is a prototype. It has all the design components in place and also has all the functionalities that we are going to have.

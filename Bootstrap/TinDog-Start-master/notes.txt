@@ -1,0 +1,5 @@
+1. .container .title -> means style an element with a class title which is container in a parent element which has a class .container
+
+2. .container.title -> means style an element with a class 
+
+3. h1#title -> styles a h1 element with an id title.

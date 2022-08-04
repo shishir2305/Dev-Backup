@@ -1,0 +1,15 @@
+{
+  "name": "04_newsletter",
+  "version": "1.0.0",
+  "description": "Newsletter app using node, express, mailchimp, heroku and api's",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shishir Jha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selecting Elements</title>
+    <style>
+      .big-title {
+        font-size: 3rem;
+        font-family: cursive;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Full Stack Developer</h1>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // whenever we select an element in jquery, it selects all the elements that match the given parameter
+
+      //   console.log($("h1").css("font-size"));
+      // console logs the property value associated with the element
+
+      // add a class to an element
+      $("h1").addClass("big-title");
+
+      // remove a class from an element
+      $("h1").removeClass("big-title");
+
+      // if you want to add multiple class to the same element just include all of them inside the coats but separated with a space and same goes with remove class
+      $("h1").addClass("styled normal heading");
+
+      // to check whether a particular class exists in an element or not
+      $("h1").hasClass("margin-50"); // returns a boolean value
+    </script>
+  </body>
+</html>

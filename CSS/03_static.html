@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute</title>
+    <style>
+      .container {
+        height: 500px;
+        width: 500px;
+        background-color: antiquewhite;
+        position: relative;
+      }
+      .child {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        position: absolute;
+        top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child"></div>
+    </div>
+    <!-- it is positioned according to the nearest positioned ancestor, if it has no positioned ancestor then it positions itself according to the body -->
+  </body>
+</html>
